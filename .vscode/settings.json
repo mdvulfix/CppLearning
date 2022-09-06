@@ -1,0 +1,234 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "array": "cpp",
+        "atomic": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "optional": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "fstream": "cpp",
+        "initializer_list": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "typeinfo": "cpp"
+    },
+    "C_Cpp.dimInactiveRegions": false,
+    "editor.tokenColorCustomizations": 
+    {
+        "[Monolivia]": 
+        {
+            "textMateRules": 
+            [                
+                
+            
+                {
+                    "scope": "entity.name.function.templated.cpp",
+                    "settings": 
+                    {
+                        "foreground": "#B274AA",
+                        "fontStyle": ""
+                    }
+                    
+                },
+            {
+                    "scope": "entity.name.function.operator.member.cpp",
+                    "settings": 
+                    {
+                        "foreground": "#ffbcff",
+                        "fontStyle": ""
+                    }
+                    
+                },
+                {
+                    "scope": "entity.name.function.operator.cpp",
+                    "settings": 
+                    {
+                        "foreground": "#ffbcff",
+                        "fontStyle": ""
+                    }
+                    
+                },
+            {
+                    "scope": "variable.other.local.cpp",
+                    "settings": 
+                    {
+                        "foreground": "#FFFFFF",
+                        "fontStyle": "italic"
+                    }
+                    
+                },
+                {
+                    "scope": "keyword.operator",
+                    "settings": 
+                    {
+                        "foreground": "#FFFFFF",
+                        "fontStyle": ""
+                    }
+                    
+                },
+                {
+                    "scope": "entity.name.type.cpp",
+                    "settings": 
+                    {
+                        "foreground": "#B274AA",
+                        "fontStyle": "bold"
+                    }
+                    
+                },
+            
+            {
+                    "scope": "entity.name.function.cpp",
+                    "settings": 
+                    {
+                        "foreground": "#D4C883",
+                        "fontStyle": ""
+                    }
+                    
+                },
+            
+            {
+                    "scope": "entity.name.namespace.cpp",
+                    "settings": 
+                    {
+                        "foreground": "#FFFFFF",
+                        "fontStyle": ""
+                    }
+                    
+                },
+                {
+                    "scope": "storage.type.namespace.directive.cpp",
+                    "settings": 
+                    {
+                        "foreground": "#ffbcff",
+                        "fontStyle": ""
+                    }
+                    
+                },
+                {
+                    "scope": "keyword.other.using.directive.cpp",
+                    "settings": 
+                    {
+                        "foreground": "#B274AA",
+                        "fontStyle": "bold"
+                    }
+                    
+                },
+                {
+                    "scope": "string.quoted.other.lt-gt.include.cpp",
+                    "settings": 
+                    {
+                        "foreground": "#FFFFFF",
+                        "fontStyle": ""
+                    }
+                    
+                },
+                {
+                    "scope": "storage.type.built-in.primitive.cpp",
+                    "settings": 
+                    {
+                        "foreground": "#B274AA",
+                        "fontStyle": "bold"
+                    }
+                    
+                },
+                {
+                    "scope": "keyword.control.directive.include.cpp",
+                    "settings": 
+                    {
+                        "foreground": "#B274AA",
+                        "fontStyle": "bold"
+                    }
+                    
+                },                
+                {
+                    "scope": "source.cs entity.name.type.class.cs",
+                    "settings": 
+                    {
+                        "foreground": "#ffa500",
+                        "fontStyle": "bold"
+                    }
+                    
+                },
+                
+                {
+                    "scope": "source.cs entity.name.type.cs",
+                    "settings": 
+                    {
+                        "foreground": "#ffff00",
+                        "fontStyle": ""
+                    }
+                    
+                },
+                
+                {
+                    "scope": "source.cs storage.modifier.cs",
+                    "settings": 
+                    {
+                        "foreground": "#ffbcff",
+                        "fontStyle": ""
+                    }
+                    
+                },
+                
+                {
+                    "scope": "source.cs entity.name.variable.local.cs",
+                    "settings": 
+                    {
+                        "foreground": "#ffffff",
+                        "fontStyle": "italic"
+                    }
+                    
+                },
+                
+                {
+                    "scope": "source.cs entity.name.variable.field.cs",
+                    "settings": 
+                    {
+                        "foreground": "#ffffff",
+                        "fontStyle": "italic"
+                    }
+                    
+                },
+                
+                {
+                    "scope": "source.cs variable.other.readwrite.cs",
+                    "settings": 
+                    {
+                        "foreground": "#ffffff",
+                        "fontStyle": ""
+                    }
+                    
+                }
+                
+            ]
+        }
+    }
+}
