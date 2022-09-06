@@ -1,16 +1,24 @@
 #include <iostream>
 
-
 using namespace std;
 
 int main() 
 {
-    string name = "";
+    string presonName;
 
     cout << "Please, write your name!" << endl;
-    cin >> name;
-    cout << "Hello " << name << "!" << endl;
+    cin >> presonName;
+    cout << "Hello " << presonName << "! Hi are you??" << endl;
+    
+    string mood;
+    string answer;
 
-    int numberof = 100;
+    cin >> mood;
 
+    if (mood == "Good")
+        answer = "Oh! I feel good too! Cool!";
+    else
+        answer = "It's sad to hear that. I hope that everything will be fine with you!";
+
+    cout << answer << endl;
 }
