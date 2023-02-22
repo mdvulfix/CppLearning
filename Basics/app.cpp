@@ -1,24 +1,91 @@
 #include <iostream>
+#include <cmath>
 
-using namespace std;
-
-int main() 
+namespace message
 {
-    string presonName;
+    using namespace std;
 
-    cout << "Please, write your name!" << endl;
-    cin >> presonName;
-    cout << "Hello " << presonName << "! Hi are you??" << endl;
+    void Start(bool separate = true)
+    {
+
+        if (!separate)
+            return;
+
+        cout << "--------------------------------------------------" << endl;
+        cout << "\n";
+    }
+
+    void Finish(bool separate = true)
+    {
+        if (!separate)
+            return;
+
+        cout << "\n";
+        cout << "--------------------------------------------------" << endl;
+    }
+
+    string Ask(string message)
+    {
+        string m_Answer;
+
+        cout << message << "\n";
+        getline(cin, m_Answer);
+        cout << "\n";
+
+        return m_Answer;
+    }
+
+    void Tell(string message)
+    {
+        cout << message << "\n";
+    }
+
+}
+
+namespace calculation
+{
+    using namespace message;
+
     
-    string mood;
-    string answer;
+    
+    
+    bool Calculate()
+    {
+        var  answer = Ask("Do you want make some calcelations?");
 
-    cin >> mood;
+    }
+    
+    
+    
 
-    if (mood == "Good")
-        answer = "Oh! I feel good too! Cool!";
+}
+
+
+int main()
+{
+
+    using namespace std;
+    using namespace message;
+    using namespace calculation;
+
+    bool m_Separate = true;
+
+    string m_Name;
+    string m_Feel;
+
+    Start(m_Separate);
+    m_Name = Ask("Please, write your name!");
+
+    Tell("Hello " + m_Name);
+    m_Feel = Ask("How are you, " + m_Name + "?");
+
+    if (m_Feel == "Good")
+        Tell("Oh! I feel good too! Cool!");
     else
-        answer = "It's sad to hear that. I hope that everything will be fine with you!";
+        Tell("It's sad to hear that. I hope that everything will be fine with you!");
 
-    cout << answer << endl;
+    
+    Calculate();
+    
+    Finish(m_Separate);
 }
